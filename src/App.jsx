@@ -1,11 +1,10 @@
-import Player from './components/Player.jsx';
+import ProjectsSideBar from "./components/ProjectsSidebar";
 
 function App() {
   return (
-    <>
-      <Player />
-      <div id="challenges"></div>
-    </>
+    <main className="h-screen my-8">
+      <ProjectsSideBar />
+    </main>
   );
 }
 
